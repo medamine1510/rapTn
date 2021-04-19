@@ -1,0 +1,43 @@
+
+.navbar-light .navbar-nav .nav-link
+{ color: #000000;
+  font-size: 10px;
+}
+.nav-link {
+  margin: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  font-weight: bold;
+  color: #0a0707;
+  letter-spacing: 2px;
+}
+.follow a
+{
+  padding: 10px;
+  color: #000000;
+  font-weight: bold;
+}
+.navbar-brand {
+  font-size: 25px;
+  color: #616bfd;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.navbar-brand span {
+  color: #00a000;
+}
+.B {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width:600px)
+{.follow a 
+{
+  padding: 5px;
+}}
+#footer{
+  display: flex;
+ 
+}

@@ -1,0 +1,16 @@
+div#colonne1 {
+	float: left;
+	width: 160px;
+	margin-right: 10px;
+	background: lightblue;
+}
+div#colonne2 {
+	float: right;
+	width: 500px;
+	margin-left: 10px;
+}
+div#centre {
+	overflow: hidden;
+    width: 800px;
+	
+}

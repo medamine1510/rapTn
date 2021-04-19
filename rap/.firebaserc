@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "raptn-c9588": {
+      "hosting": {
+        "rap": [
+          "raptn-c9588"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.home video
+{
+    width: 100%;
+    height: 700px;
+    object-position: center;
+    object-fit: cover;
+}
+.homecontent
+{  
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    transform: translate(-80%,-30%);
+}
+.homecontent p
+{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.homecontent p span{
+    color: #9e9e9e;
+    font-size: 30px;
+    font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+.homecontent h1
+{
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  left: 24;
+}
+.homecontent h1 span
+{
+  color: #9e9e9e;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.homecontent a
+{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+@media screen and (max-width:0px)
+{
+    .home video
+    { height: 100px;}
+    .homecontent h1
+    {font-size: 50px;}
+}

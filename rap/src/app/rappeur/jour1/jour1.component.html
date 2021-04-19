@@ -1,0 +1,25 @@
+<table class="table table-light table-striped " width="100px">
+    <tbody>
+        <tr *ngFor="let vid of Videos">
+    
+            <td>
+             
+                <span class="roundedImage thun" >
+                    <img [src]="vid.details.thumbnail" alt="1"  >
+                </span>
+            </td>     
+            <td>
+    
+                <div class="title" >{{vid.details.title}}</div>
+                <div class="abonne" >{{vid.stat.sub}}</div>
+            </td>    
+             <td>
+                <button type="button" class=" btn-outline-primary" >{{vid.rank}}</button>
+                <br> 
+                score:{{vid.score}} 
+             </td> 
+    
+    
+        </tr>
+    
+    </tbody>

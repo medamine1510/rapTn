@@ -1,0 +1,33 @@
+<table  class="table table-light table-striped">
+
+
+  <thead>
+    <tr>
+      <th>Video</th>
+      <th>Description</th>
+      <th>Rank</th>
+    </tr>
+  </thead>
+  
+    
+  <tbody>
+    <tr *ngFor="let vid of Videos" > 
+          <td>
+            <img [src]="vid.details.image">
+         </td>
+          <td  >
+           <div class="titre">{{vid.details.title}}</div>
+           
+           <div class="vue">{{vid.stat.view}} vues</div>
+           <textarea  style="width: 400px; height: 100px" >{{vid.details.desc}}</textarea>
+          </td >
+               
+          <td>
+           <button type="button" class=" btn-outline-primary" >{{vid.rank}}</button>
+           <br> 
+            score:{{vid.score}} 
+           </td>
+      </tr>
+   </tbody>
+ </table>
+ <br>
